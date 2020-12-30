@@ -37,8 +37,11 @@
                 <td><?= $isi->nama_dosen; ?></td>
                 <td><?= $isi->alamat; ?></td>
                 <td>
-                    <a href="" class="btn btn-danger">Del</a>
-                    <a href="" class="btn btn-warning">Edit</a>
+                    <a href="delete.php?nip=<?php echo $isi->nip; ?>"
+                       class="btn btn-danger">Del</a>
+
+                    <a href="update.php?nip=<?php echo $isi->nip; ?>"
+                       class="btn btn-warning">Edit</a>
                 </td>
             </tr>
         <?php } ?>
