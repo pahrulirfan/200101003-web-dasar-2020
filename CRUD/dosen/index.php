@@ -40,7 +40,7 @@
                     <a href="delete.php?nip=<?php echo $isi->nip; ?>"
                        class="btn btn-danger">Del</a>
 
-                    <a href="update.php?nip=<?php echo $isi->nip; ?>"
+                    <a href="update.php?url-nip=<?php echo $isi->nip; ?>"
                        class="btn btn-warning">Edit</a>
                 </td>
             </tr>
